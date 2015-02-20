@@ -10,7 +10,7 @@ BOOL canOpenURL = [[UIApplication sharedApplication]
                        openURL:[NSURL URLWithString:@"eatizer://"]];
 ```
 If the check fails, open the iTunes page related to the application. 
-To do this you can user **StoreKit** (only + iOS6) [original link](http://www.albertopasca.it/whiletrue/2013/06/objectivec-in-app-download/)
+To do this you can use **StoreKit** (only + iOS6) [original link](http://www.albertopasca.it/whiletrue/2013/06/objectivec-in-app-download/)
 ```objectivec
 - (void)presentInAppStoreForID:(NSString *)appStoreID
                      withDelegate:(id < SKStoreProductViewControllerDelegate >)delegate
@@ -33,6 +33,8 @@ To do this you can user **StoreKit** (only + iOS6) [original link](http://www.al
     }
 }
 ````
+To find the AppStoreID Apple create this very usefull [page](http://linkmaker.itunes.apple.com/).
+
 Remember to [create](http://stackoverflow.com/questions/13004357/app-cant-be-installed-with-skstoreproductviewcontroller) a StoreKit Test user ;-) 
 ## Acknowledgements
 Alberto Pasca [elpsk](https://github.com/elpsk/)
