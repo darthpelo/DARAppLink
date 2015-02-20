@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE13E9081A9732FB00616CD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE13E9071A9732FB00616CD2 /* main.m */; };
+		BE13E90B1A9732FB00616CD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE13E90A1A9732FB00616CD2 /* AppDelegate.m */; };
+		BE13E90E1A9732FB00616CD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE13E90D1A9732FB00616CD2 /* ViewController.m */; };
+		BE13E9111A9732FB00616CD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE13E90F1A9732FB00616CD2 /* Main.storyboard */; };
+		BE13E9131A9732FB00616CD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE13E9121A9732FB00616CD2 /* Images.xcassets */; };
+		BE13E9161A9732FB00616CD2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE13E9141A9732FB00616CD2 /* LaunchScreen.xib */; };
+		BE13E9221A9732FB00616CD2 /* DARAppLinkTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE13E9211A9732FB00616CD2 /* DARAppLinkTestTests.m */; };
+		BE13E92C1A97390A00616CD2 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE13E92B1A97390900616CD2 /* StoreKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE13E91C1A9732FB00616CD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE13E8FA1A9732FB00616CD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE13E9011A9732FB00616CD2;
+			remoteInfo = DARAppLinkTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE13E9021A9732FB00616CD2 /* DARAppLinkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DARAppLinkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE13E9061A9732FB00616CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE13E9071A9732FB00616CD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE13E9091A9732FB00616CD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE13E90A1A9732FB00616CD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE13E90C1A9732FB00616CD2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE13E90D1A9732FB00616CD2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE13E9101A9732FB00616CD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE13E9121A9732FB00616CD2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE13E9151A9732FB00616CD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BE13E91B1A9732FB00616CD2 /* DARAppLinkTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DARAppLinkTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE13E9201A9732FB00616CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE13E9211A9732FB00616CD2 /* DARAppLinkTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DARAppLinkTestTests.m; sourceTree = "<group>"; };
+		BE13E92B1A97390900616CD2 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE13E8FF1A9732FB00616CD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE13E92C1A97390A00616CD2 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE13E9181A9732FB00616CD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE13E8F91A9732FB00616CD2 = {
+			isa = PBXGroup;
+			children = (
+				BE13E92B1A97390900616CD2 /* StoreKit.framework */,
+				BE13E9041A9732FB00616CD2 /* DARAppLinkTest */,
+				BE13E91E1A9732FB00616CD2 /* DARAppLinkTestTests */,
+				BE13E9031A9732FB00616CD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE13E9031A9732FB00616CD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE13E9021A9732FB00616CD2 /* DARAppLinkTest.app */,
+				BE13E91B1A9732FB00616CD2 /* DARAppLinkTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE13E9041A9732FB00616CD2 /* DARAppLinkTest */ = {
+			isa = PBXGroup;
+			children = (
+				BE13E9091A9732FB00616CD2 /* AppDelegate.h */,
+				BE13E90A1A9732FB00616CD2 /* AppDelegate.m */,
+				BE13E90C1A9732FB00616CD2 /* ViewController.h */,
+				BE13E90D1A9732FB00616CD2 /* ViewController.m */,
+				BE13E90F1A9732FB00616CD2 /* Main.storyboard */,
+				BE13E9121A9732FB00616CD2 /* Images.xcassets */,
+				BE13E9141A9732FB00616CD2 /* LaunchScreen.xib */,
+				BE13E9051A9732FB00616CD2 /* Supporting Files */,
+			);
+			path = DARAppLinkTest;
+			sourceTree = "<group>";
+		};
+		BE13E9051A9732FB00616CD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE13E9061A9732FB00616CD2 /* Info.plist */,
+				BE13E9071A9732FB00616CD2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE13E91E1A9732FB00616CD2 /* DARAppLinkTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE13E9211A9732FB00616CD2 /* DARAppLinkTestTests.m */,
+				BE13E91F1A9732FB00616CD2 /* Supporting Files */,
+			);
+			path = DARAppLinkTestTests;
+			sourceTree = "<group>";
+		};
+		BE13E91F1A9732FB00616CD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE13E9201A9732FB00616CD2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE13E9011A9732FB00616CD2 /* DARAppLinkTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE13E9251A9732FB00616CD2 /* Build configuration list for PBXNativeTarget "DARAppLinkTest" */;
+			buildPhases = (
+				BE13E8FE1A9732FB00616CD2 /* Sources */,
+				BE13E8FF1A9732FB00616CD2 /* Frameworks */,
+				BE13E9001A9732FB00616CD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DARAppLinkTest;
+			productName = DARAppLinkTest;
+			productReference = BE13E9021A9732FB00616CD2 /* DARAppLinkTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE13E91A1A9732FB00616CD2 /* DARAppLinkTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE13E9281A9732FB00616CD2 /* Build configuration list for PBXNativeTarget "DARAppLinkTestTests" */;
+			buildPhases = (
+				BE13E9171A9732FB00616CD2 /* Sources */,
+				BE13E9181A9732FB00616CD2 /* Frameworks */,
+				BE13E9191A9732FB00616CD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE13E91D1A9732FB00616CD2 /* PBXTargetDependency */,
+			);
+			name = DARAppLinkTestTests;
+			productName = DARAppLinkTestTests;
+			productReference = BE13E91B1A9732FB00616CD2 /* DARAppLinkTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE13E8FA1A9732FB00616CD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Alessio Roberto";
+				TargetAttributes = {
+					BE13E9011A9732FB00616CD2 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					BE13E91A1A9732FB00616CD2 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = BE13E9011A9732FB00616CD2;
+					};
+				};
+			};
+			buildConfigurationList = BE13E8FD1A9732FB00616CD2 /* Build configuration list for PBXProject "DARAppLinkTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE13E8F91A9732FB00616CD2;
+			productRefGroup = BE13E9031A9732FB00616CD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE13E9011A9732FB00616CD2 /* DARAppLinkTest */,
+				BE13E91A1A9732FB00616CD2 /* DARAppLinkTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE13E9001A9732FB00616CD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE13E9111A9732FB00616CD2 /* Main.storyboard in Resources */,
+				BE13E9161A9732FB00616CD2 /* LaunchScreen.xib in Resources */,
+				BE13E9131A9732FB00616CD2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE13E9191A9732FB00616CD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE13E8FE1A9732FB00616CD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE13E90E1A9732FB00616CD2 /* ViewController.m in Sources */,
+				BE13E90B1A9732FB00616CD2 /* AppDelegate.m in Sources */,
+				BE13E9081A9732FB00616CD2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE13E9171A9732FB00616CD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE13E9221A9732FB00616CD2 /* DARAppLinkTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE13E91D1A9732FB00616CD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE13E9011A9732FB00616CD2 /* DARAppLinkTest */;
+			targetProxy = BE13E91C1A9732FB00616CD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE13E90F1A9732FB00616CD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE13E9101A9732FB00616CD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE13E9141A9732FB00616CD2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE13E9151A9732FB00616CD2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE13E9231A9732FB00616CD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE13E9241A9732FB00616CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE13E9261A9732FB00616CD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DARAppLinkTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE13E9271A9732FB00616CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DARAppLinkTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE13E9291A9732FB00616CD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DARAppLinkTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DARAppLinkTest.app/DARAppLinkTest";
+			};
+			name = Debug;
+		};
+		BE13E92A1A9732FB00616CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DARAppLinkTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DARAppLinkTest.app/DARAppLinkTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE13E8FD1A9732FB00616CD2 /* Build configuration list for PBXProject "DARAppLinkTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE13E9231A9732FB00616CD2 /* Debug */,
+				BE13E9241A9732FB00616CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE13E9251A9732FB00616CD2 /* Build configuration list for PBXNativeTarget "DARAppLinkTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE13E9261A9732FB00616CD2 /* Debug */,
+				BE13E9271A9732FB00616CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE13E9281A9732FB00616CD2 /* Build configuration list for PBXNativeTarget "DARAppLinkTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE13E9291A9732FB00616CD2 /* Debug */,
+				BE13E92A1A9732FB00616CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE13E8FA1A9732FB00616CD2 /* Project object */;
+}
